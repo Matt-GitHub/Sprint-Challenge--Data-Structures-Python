@@ -57,18 +57,19 @@ class BinaryTree:
             else:
                 self.right.contains(target)
 
-
+# ! solution using BST
 # test = BinaryTree()
 # for name in names_1:
 #     test.add_node(name)
 # for name in names_2:
 #     test.contains(name)
 
-# Replace the nested for loops below with your improvements
+# ? Double for loop (needs to be optimized)
 # for name_1 in names_1:
 #     for name_2 in names_2:
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
+
 
 # ! Stretch Solution using Set
 name1 = list(set(names_1))
